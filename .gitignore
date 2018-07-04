@@ -1,0 +1,14 @@
+# Copy from fastjson's gitignore, https://github.com/alibaba/fastjson
+/target
+/.project
+/.settings
+/.classpath
+/.idea
+/.DS_Store
+*.iml
+*.class
+
+/bin/
+
+# log file
+*.log.*

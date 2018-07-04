@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>9</version>
+  </parent>
+
+  <groupId>cn.cnetwork.practice</groupId>
+  <artifactId>java-project-sample</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>Java Sample : Own Project</name>
+  <description></description>
+  <url>https://www.cnetwork.cn</url>
+  <licenses>
+    <license>
+      <name> MIT License </name>
+      <url> https://en.wikipedia.org/wiki/MIT_License </url>
+    </license>
+  </licenses>
+
+  <scm>
+    <connection>scm:git:https://github.com/google/guava.git</connection>
+    <developerConnection>scm:git:git@github.com:google/guava.git</developerConnection>
+    <url>https://github.com/google/guava</url>
+  </scm>
+
+  <developers>
+    <developer>
+      <id> Cnetwork </id>
+      <name> Felix Wang</name>
+      <url> https://www.cnetwork.cn </url>
+      <organization> YiDian Corp. </organization>
+      <organizationUrl> http://www.yidianzixun.xom </organizationUrl>
+      <email> buaa_wsg@163.com </email>
+      <roles>
+        <role>owner</role>
+        <role>developer</role>
+      </roles>
+      <timezone>-8</timezone>
+    </developer>
+  </developers>
+
+</project>
